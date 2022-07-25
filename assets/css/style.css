@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Condensed:ital@1&display=swap');
+
+
 body {
-    font-family: arial;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-image: url(../images/blue-water-bg.jpeg);
+}
+
+#header {
+    height: 600px;
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+
+#main-heading {
+  
+    float: center;
+    text-align: center;
+    color: blue;
+
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+
+
 }
