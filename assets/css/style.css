@@ -5,14 +5,16 @@ body {
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     background-image: url(../images/blue-water-bg.jpeg);
+    background-image: no-repeat center center;
 }
 
 #header {
-    height: 600px;
+    height: 300px;
     width: 100%;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    text-decoration: none;
 }
 
 
@@ -20,13 +22,25 @@ body {
   
     float: center;
     text-align: center;
-    color: blue;
+    color: rgb(254, 254, 254);
+    text-decoration: none;
 
 }
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(8, 8, 101);
+    display:block;
+	width: 400px;
+    height: 50px;
+    text-align: center;
+	float:left;
+	margin-left:2px;
+}
 
 
+#hero-image {
+    display: block;
+    Width: 900px;
+    height: 400px;
 }
