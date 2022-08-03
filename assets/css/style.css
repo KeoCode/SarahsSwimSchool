@@ -3,8 +3,8 @@
 
 body {
     color:black;
-    font-size: large;
-    font-weight: 500;
+    font-size: x-large;
+    font-weight: 600;
    
 }
 #bg-image {
@@ -18,27 +18,33 @@ body {
 #header {
     height: 120px;
     width: 100%;
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
     text-decoration: none;
 }
 
+#logo {
+    border-radius: 35%;
+    width: 120px;
+    height: 120px;
+    float: left;
+    position: relative;
+
+}
 
 #main-heading {
-  
-    float: center;
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
-
+    padding-bottom: 60px;
+    padding-left: 10px;
+    position: relative;
 }
+
 .tab {
     overflow: hidden;
     border: 1px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     display: block;
-	width: 30%;
+	width: 32%;
     height: 50px;
     text-align: center;
 	float:left;
@@ -49,7 +55,7 @@ body {
 }
 
 nav > div {
-    background-color:white;
+    
     font-size: large;
     
 }
@@ -85,4 +91,14 @@ footer > div    {
     padding: 2%;
     margin: 2%;
     color: white;
+}
+
+.sign-up-form { 
+    display: flexbox;
+    text-align: center;
+}
+
+#submit {
+    color: 	white;
+    background-color: black;
 }
