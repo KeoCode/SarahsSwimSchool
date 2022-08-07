@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Swimming school that teaches swim lessons in Cork, Ireland">
-        <meta name="keywords" content="Swimming, learn to swim, swimming lessons, swim teacher, swim, Cork, Ireland">
-    
-        <link rel="stylesheet" href="assets/css/style.css">
-       <div ><img src="assets/images/dolphin-logo.jpg" alt="Dolphin cartoon image for logo" id="logo"></div>
-        <div id="main-heading"><title>Sarah's Swim School</title></div>
-    </head>
-    <body id="bg-image">
-        
-        <header id="header">
-            <div><a href="index.html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Swimming school that teaches swim lessons in Cork, Ireland">
+    <meta name="keywords" content="Swimming, learn to swim, swimming lessons, swim teacher, swim, Cork, Ireland">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Sarah's Swim School</title>
+
+</head>
+
+
+<header id="header">
+    <div><a href="index.html">
             <h1 id="main-heading"><em>Sarah's Swim School</em></h1>
-    
+
         </a>
     </div>
-        <nav>
-           <div class="tab">
-                <a href="index.html">Home</a>
+    <nav>
+        <div class="tab">
+            <a href="index.html">Home</a>
+        </div>
+
+        <div class="tab">
+            <a href="#about">About us</a>
+        </div>
+
+        <div class="tab">
+            <a href="sign-up-form.html">Book your free assessment</a>
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main>
+    <section class="sign-up-form">
+        <form method="POST">
+            <h2>Sign up for your free Assessment today!</h2>
+            <div>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
             </div>
-            
-            <div class="tab">
-                <a href="#about">About us</a>
+            <br>
+            <div>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob">
             </div>
-            
-            <div class="tab">
-                <a href="sign-up-form.html">Book your free assessment</a>
+            <br>
+            <div>
+                <label for="number">Contact Number</label>
+                <input type="tel" id="number" name="number" placeholder="0851234567" required>
             </div>
-            
-        </nav>
-    
-    </header>
-<body>
-    <main>
-   <section class="sign-up-form">
-     <form action="#.php" method="POST">
-    <div>
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name" placeholder="John Doe" required>
-    </div>
-    <br>
-    <div>
-        <label for="dob">Date of Birth</label>
-        <input type="date" id="dob" name="dob" placeholder="01/01/2000" required>
-    </div>
-    <br>
-    <div>
-        <label for="number">Contact Number</label>
-        <input type="tel" id="name" name="number" placeholder="0851234567" required>
-    </div>
-    <br>    
-    <div>
-        <label for="email">Email Address</label>
-        <input type="email" id="email" name="email" placeholder="johndoe@email.com" required>
+            <br>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="johndoe@email.com" required>
 
-    </div>
-    <br>
-    <div>
-        <label for="level">Experience Level</label>
+            </div>
+            <br>
+            <div>
+                <label>Experience Level</label>
 
-        <label for="level">Beginner</label>
-        <input type="radio" id="beginner" name="level" value="beginner">
+                <label for="beginner">Beginner</label>
+                <input type="radio" id="beginner" name="level" value="beginner">
 
-        <label for="level">Improver</label>
-        <input type="radio" id="improver" name="level" value="improver">
+                <label for="improver">Improver</label>
+                <input type="radio" id="improver" name="level" value="improver">
 
-        <label for="level">Advanced</label>
-        <input type="radio" id="advanced" name="level" value="advanced">
-    </div>
-    <br>
-    <div>  
-        <label for="time">Time preference</label>
-        
-        <label for="time">Evenings</label>
-        <input type="radio" id="evening" name="time" value="evening">
+                <label for="advanced">Advanced</label>
+                <input type="radio" id="advanced" name="level" value="advanced">
+            </div>
+            <br>
+            <div>
+                <label>Time preference</label>
 
-        <label for="time">Weekends</label>
-        <input type="radio" id="weekend" name="time" value="weekend">
-    </div>
+                <label for="evening">Evenings</label>
+                <input type="radio" id="evening" name="time" value="evening">
 
-    <div>
-        <input type="submit" id="submit">
-    </div>
-    </form>
-   </section>
+                <label for="weekend">Weekends</label>
+                <input type="radio" id="weekend" name="time" value="weekend">
+            </div>
+
+            <div>
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </section>
 </main>
 
 <footer>
@@ -96,26 +101,31 @@
     <div><strong>Email address:</strong> sarahswim@gmail.com</div>
     <div><strong>Address:</strong> Marina Swimming pool, Marina, Cork</div>
 
-<ul class="social-icons">
-   <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Vist our Facebook page (opens in new tab">
-        <i class="fa-brands fa-facebook"></i>
-    </a></li>
+    <ul class="social-icons">
+        <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Vist our Facebook page (opens in new tab">
+                <i class="fa-brands fa-facebook"></i>
+            </a></li>
 
-    <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Vist our Twitter page (opens in new tab">
-        <i class="fa-brands fa-twitter"></i>
-    </a></li>
+        <li><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                aria-label="Vist our Twitter page (opens in new tab">
+                <i class="fa-brands fa-twitter"></i>
+            </a></li>
 
-    <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Vist our Instagram page (opens in new tab">
-        <i class="fa-brands fa-instagram"></i>
-    </a></li>
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Vist our Instagram page (opens in new tab">
+                <i class="fa-brands fa-instagram"></i>
+            </a></li>
 
-    <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Vist our Youtube page (opens in new tab">
-        <i class="fa-brands fa-youtube"></i>
-    </a></li>
+        <li><a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Vist our Youtube page (opens in new tab">
+                <i class="fa-brands fa-youtube"></i>
+            </a></li>
 
-</ul>
-<script src="https://kit.fontawesome.com/ccdbc20c96.js" crossorigin="anonymous"></script>
+    </ul>
+    <script src="https://kit.fontawesome.com/ccdbc20c96.js" crossorigin="anonymous"></script>
 </footer>
 
 </body>
+
 </html>
