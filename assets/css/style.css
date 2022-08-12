@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Condensed:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Condensed:ital@1&family=Sail&display=swap');
+
 
 
 body {
@@ -15,6 +17,7 @@ body {
 }
 
 #main-heading {
+    font-family: s;
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration: none;
