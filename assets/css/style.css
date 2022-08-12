@@ -1,9 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto+Condensed:ital@1&family=Sail&display=swap');
 
 
-
 body {
+    background-image: url('../images/blue-water-bg.jpeg');
+    background-size: cover;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: black;
     font-weight: 500;
     background-color: #1CDDEB;
@@ -41,7 +44,7 @@ body {
     font-size: 20px;
     text-align: center;
     font-weight: 600;
- 
+
 }
 
 nav>div {
@@ -119,27 +122,19 @@ footer>div {
     display: block;
 }
 
-    section {
-        max-width: 70%;
-        margin: auto;
-        background-color: rgb(225 237 243 / 50%);
-    }
-
-    ul {
-        list-style: none;
-    }
-
-    @media screen and (max-width: 1200px) {
-        
-
-        }
-
-        @media screen and (max-width: 950px) {
-
-
-        }
-        
-
-@media  screen and (max-width: 800px) {
-    
+section {
+    max-width: 70%;
+    margin: auto;
+    background-color: rgb(225 237 243 / 50%);
 }
+
+ul {
+    list-style: none;
+}
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 950px) {}
+
+
+@media screen and (max-width: 800px) {}
