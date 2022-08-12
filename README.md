@@ -51,6 +51,8 @@ They will be able sign up for a free assessment to see what level class they sho
 
 * Deployment
  * Steps used in GitHub to deploy on pages section
+ ![Screen shot of the github pages to deploy page](/assets/images//github-deployment.png)
+ ![Screen shot of the github once deployed](/assets/images/deployed2.png)
 
 * Credits
     * Content 
