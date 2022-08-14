@@ -118,7 +118,7 @@ footer>div {
 
 .sign-up-form {
     text-align: center;
-    padding-top: 100px;
+    margin-top: 100px;
     display: block;
 }
 
@@ -132,9 +132,21 @@ ul {
     list-style: none;
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (min-width: 951px) and (max-width: 1200px) {
+    body{
+        font-size: 25px;
+    }
+}
 
-@media screen and (max-width: 950px) {}
+@media screen and  (min-width: 481px) and (max-width: 950px) {
+    body{
+        font-size: 20px;
+    }
+}
 
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 440px) {
+    body {
+        font-size: 14px;
+    }
+}
