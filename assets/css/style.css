@@ -4,7 +4,7 @@
 body {
     background-image: url('../images/blue-water-bg.jpeg');
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: black;
