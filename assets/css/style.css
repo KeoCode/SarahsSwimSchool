@@ -4,14 +4,15 @@
 body {
     background-image: url('../images/blue-water-bg.jpeg');
     background-size: cover;
-    overflow: hidden;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: black;
     font-weight: 500;
     background-color: #1CDDEB;
     text-align: center;
+ 
 }
+
 
 #header {
     height: 120px;
